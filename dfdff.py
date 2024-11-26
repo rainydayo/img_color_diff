@@ -6,7 +6,7 @@ import base64
 import schedule
 import time
 
-cred = credentials.Certificate("hopesmartbin-firebase-adminsdk-zw7ni-062890dc42.json")
+cred = credentials.Certificate("hopesmartbin-firebase-adminsdk-zw7ni-04f06cd57a.json")
 firebase_admin.initialize_app(cred, {"databaseURL": "https://hopesmartbin-default-rtdb.asia-southeast1.firebasedatabase.app/"})
 
 def fetch_base64_data():
