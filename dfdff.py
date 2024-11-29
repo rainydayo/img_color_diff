@@ -52,3 +52,6 @@ if __name__ == "__main__":
     while True:
         schedule.run_pending()
         time.sleep(1)
+    # base64_data = fetch_base64_data()
+    # img = decode_base64_image(base64_data)
+    # process_image(img)
